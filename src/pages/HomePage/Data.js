@@ -1,7 +1,6 @@
 export const homeObjOne = {
     lightBg: false,
     primary: true, 
-    lightBg: false, 
     imgStart: '', 
     lightTopLine: true, 
     lightTextDesc: true, 
@@ -16,26 +15,24 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    lightBg: false,
-    primary: true, 
-    lightBg: false, 
-    imgStart: '', 
-    lightTopLine: true, 
-    lightTextDesc: true, 
+    lightBg: true,
+    primary: false, 
+    imgStart: 'start', 
+    lightTopLine: false, 
+    lightTextDesc: false, 
     buttonLabel: 'Get Started', 
     description: 'We help you generate new braincells by giving you a platform to learn any language', 
     headline: 'Online Language Learning Platform for Global Citizens', 
-    lightText: true, 
+    lightText: false, 
     topLine: 'The next Duolingo Owl',
     img: require('../../images/girl.jpg'),
     alt: 'Image',
-    start: ''
+    start: 'true'
 };
 
 export const homeObjThree = {
     lightBg: false,
-    primary: true, 
-    lightBg: false, 
+    primary: true,  
     imgStart: '', 
     lightTopLine: true, 
     lightTextDesc: true, 
@@ -52,16 +49,15 @@ export const homeObjThree = {
 export const homeObjFour = {
     lightBg: false,
     primary: true, 
-    lightBg: false, 
-    imgStart: '', 
-    lightTopLine: true, 
-    lightTextDesc: true, 
+    imgStart: 'start', 
+    lightTopLine: false, 
+    lightTextDesc: false, 
     buttonLabel: 'Get Started', 
     description: 'We help you generate new braincells by giving you a platform to learn any language', 
     headline: 'Online Language Learning Platform for Global Citizens', 
-    lightText: true, 
+    lightText: false, 
     topLine: 'The next Duolingo Owl',
     img: require('../../images/svg-3.svg'),
     alt: 'Image',
-    start: ''
+    start: 'true'
 };
